@@ -25,7 +25,7 @@ def get_invoices_data(session: requests.Session) -> list[dict]:
     """Retrieve invoice data from the server.
 
     Sends a POST request to the SEED_URL with specific data to obtain
-    invoice information. The function raises an exception if the 
+    invoice information. The function raises an exception if the
     request fails and returns the JSON response as a list of dictionaries.
 
     Args:
