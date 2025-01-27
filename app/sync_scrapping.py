@@ -120,7 +120,8 @@ def generate_csv(invoices_data: list[dict]) -> None:
         writer = csv.writer(f, delimiter=CSV_DELIMITER)
         writer.writerow(CSV_COLUMNS)
         for invoice in invoices_data:
-            writer.writerow([invoice.get(col, '') for col in CSV_COLUMNS])
+            print(invoice)
+            writer.writerow(list(invoice.values()))
 
 
 @measure_time
