@@ -18,17 +18,12 @@ Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 1. **Clone o Repositório**:
    ```bash
    git clone https://github.com/Nycolas-Galdino/Web-Scrapping-Challenge.git
-   cd Web-Scrapping-Challenge-main
+   cd Web-Scrapping-Challenge
    ```
 
 2. **Instale as Dependências com o Poetry**:
    ```bash
    poetry install
-   ```
-
-3. **Ative o Ambiente Virtual Gerenciado pelo Poetry**:
-   ```bash
-   poetry shell
    ```
 
 ---
