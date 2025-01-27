@@ -39,7 +39,7 @@ Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 │   ├── config.py        # Configurações do script
 ├── tests/               # Contém os testes
 │   ├── __init__.py      # Arquivo para tornar o diretório um módulo
-│   ├── test_main.py # Arquivo com os testes
+│   ├── test_main.py     # Arquivo com os testes
 ├── pyproject.toml       # Configurações do Poetry e dependências
 ├── poetry.lock          # Arquivo de bloqueio de dependências
 └── README.md            # Este guia
