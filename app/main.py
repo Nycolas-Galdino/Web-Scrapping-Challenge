@@ -98,7 +98,7 @@ def save_invoices(session: requests.Session, invoices_data: list[dict]) -> None:
         invoice.
     """
     filenames = [invoice['invoice'].split('/')[-1].strip() for invoice in invoices_data]
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    with ThreadPoolExecutor(max_workers=12) as executor:
         executor.map(lambda filename: download_invoice(session, filename), filenames)
 
 
