@@ -1,6 +1,6 @@
 # Guia para Rodar o Script e os Testes
 
-Este documento explica como configurar, executar o script principal e rodar os testes automatizados.
+Este documento explica como configurar, executar o script principal e rodar os testes automatizados. 
 
 ---
 
@@ -8,8 +8,8 @@ Este documento explica como configurar, executar o script principal e rodar os t
 
 Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 
-1. **Python 3.11+**
-2. **Poetry** (gerenciador de dependências do Python)
+1. **[Python 3.11+](https://www.python.org/)**
+2. **[Poetry](https://python-poetry.org/docs/)** (gerenciador de dependências do Python)
 
 ---
 
@@ -39,11 +39,11 @@ Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 .
 ├── app/                 # Contém o script principal
 │   ├── __init__.py      # Arquivo para tornar o diretório um módulo
-│   ├── script.py        # O código principal
+│   ├── main.py        # O código principal
 │   ├── config.py        # Configurações do script
 ├── tests/               # Contém os testes
 │   ├── __init__.py      # Arquivo para tornar o diretório um módulo
-│   ├── test_invoices.py # Arquivo com os testes
+│   ├── test_main.py # Arquivo com os testes
 ├── pyproject.toml       # Configurações do Poetry e dependências
 ├── poetry.lock          # Arquivo de bloqueio de dependências
 └── README.md            # Este guia
