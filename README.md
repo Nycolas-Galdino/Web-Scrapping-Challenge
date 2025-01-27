@@ -34,7 +34,7 @@ Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 .
 ├── app/                 # Contém o script principal
 │   ├── __init__.py      # Arquivo para tornar o diretório um módulo
-│   ├── main.py        # O código principal
+│   ├── main.py          # O código principal
 │   ├── config.py        # Configurações do script
 ├── tests/               # Contém os testes
 │   ├── __init__.py      # Arquivo para tornar o diretório um módulo
