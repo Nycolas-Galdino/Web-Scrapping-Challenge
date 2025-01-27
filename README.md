@@ -9,7 +9,8 @@ Este documento explica como configurar, executar o script principal e rodar os t
 Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 
 1. **[Python 3.11+](https://www.python.org/)**
-2. **[Poetry](https://python-poetry.org/docs/)** (gerenciador de dependências do Python)
+2. **[GIT](https://git-scm.com/)**
+3. **[Poetry](https://python-poetry.org/docs/)** (gerenciador de dependências do Python)
 
 ---
 
