@@ -56,7 +56,7 @@ Certifique-se de que os seguintes itens estão instalados no seu ambiente:
 
 2. **Execute o script**:
    ```bash
-   poetry run python script.py
+   poetry run python main.py
    ```
 
 3. **Saída Esperada**:
